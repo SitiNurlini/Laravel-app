@@ -120,7 +120,10 @@ return [
     'required' => 'The :attribute field is required.',
     'required_array_keys' => 'The :attribute field must contain entries for: :values.',
     'required_if' => 'The :attribute field is required when :other is :value.',
+<<<<<<< HEAD
     'required_if_accepted' => 'The :attribute field is required when :other is accepted.',
+=======
+>>>>>>> c76418ff61f57065bdbff008743f1bb632443287
     'required_unless' => 'The :attribute field is required unless :other is in :values.',
     'required_with' => 'The :attribute field is required when :values is present.',
     'required_with_all' => 'The :attribute field is required when :values are present.',

@@ -69,7 +69,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'timezone' => 'Asia/Jakarta',
+=======
+    'timezone' => 'UTC',
+>>>>>>> c76418ff61f57065bdbff008743f1bb632443287
 
     /*
     |--------------------------------------------------------------------------
@@ -108,7 +112,11 @@ return [
     |
     */
 
+<<<<<<< HEAD
     'faker_locale' => 'id_ID',
+=======
+    'faker_locale' => 'en_US',
+>>>>>>> c76418ff61f57065bdbff008743f1bb632443287
 
     /*
     |--------------------------------------------------------------------------
@@ -194,7 +202,10 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+<<<<<<< HEAD
         Spatie\Permission\PermissionServiceProvider::class,
+=======
+>>>>>>> c76418ff61f57065bdbff008743f1bb632443287
 
     ],
 
