@@ -28,7 +28,6 @@ return new class extends Migration
             $table->integer('discount');
             $table->integer('grand_total');
             $table->integer('table_total');
-            $table->foreign('product_id')->references('id')->on('table');
             $table->timestamps();
         });
     }
