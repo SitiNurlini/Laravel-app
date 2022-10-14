@@ -23,8 +23,8 @@ return new class extends Migration
             $table->char('barcode')->unique();
             $table->string('title');
             $table->text('description');
-            $table->integer('buy_price');
-            $table->integer('sell_price');
+            $table->bigInteger('buy_price');
+            $table->bigInteger('sell_price');
             $table->integer('stock');
             $table->timestamps();
         });
