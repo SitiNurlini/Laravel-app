@@ -5,17 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Profits extends Model
+class Flight extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'transaction_id',
-        'total',
+        'name', 'no_telp', 'address'
     ];
-
-    public function transaction()
-    {
-        return $this->belongsTo(Transaction::class);
-    }
 }
