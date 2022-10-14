@@ -8,7 +8,7 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-class Transaction extends Authenticatable
+class Profits extends Authenticatable
 {
     use HasApiTokens, HasFactory, Notifiable;
 
@@ -45,13 +45,8 @@ class Transaction extends Authenticatable
     //     return $this->belongsTo()
     // }
 
-    public function cashier()
+    public function transaction()
     {
-        return $this->belongsTo(User::class, 'cashier_id');
-    }
-
-    public function profits()
-    {
-        return $this->hasMany(Profits::class);
+        return $this->belongsTo(Transaction::class);
     }
 }
